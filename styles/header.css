@@ -2,7 +2,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 0.49rem;
 }
 
 .button_menu {
