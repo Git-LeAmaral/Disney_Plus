@@ -13,14 +13,22 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- *currently set to "Roboto". Feel free to change it to whatever you like* -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- CSS STYLE LINK -->
     <link rel="stylesheet" href="./styles/global.css" />
   </head>
   <body>
-    <div id="app"> <!--inicio div app-->
+    <div id="app">
+      <div class="app_image">
+        <img 
+        loading="lazy"
+        alt="Imagem do filme destaque"
+        src="https://image.tmdb.org/t/p/original/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg" 
+        />
+      </div>
+      <!--inicio div app-->
       <header>
         <img src="/assets/logo.png" alt="Logo of the disney plus" />
         <button type="button" class="button_menu">
@@ -31,7 +39,7 @@
       </header>
 
       <main> <!--inicio main-->
-        <section class="movie">
+        <section class="feature_movie">
           <div class="rating">
             <img src="/assets/logo-imdb.png" alt="Icon of the IMDB" />
             <strong></strong>
@@ -54,17 +62,7 @@
           <h2>Movies</h2>
 
             <div>
-              <ul id="movies__list"></ul>
-              <!--
-                <li>
-                  <span>Kids</span>
-                  <strong>Spirit Untamed</strong>
-  
-                  <button type="button">
-                    <img src="/assets/icon-play-button.png" alt="Icon play button">
-                  </button>
-                -->
-                </li>
+              <ul id="movies__list">
               </ul>
             </div>
         </aside>
