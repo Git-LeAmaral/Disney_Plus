@@ -8,7 +8,7 @@
     <meta name="description" content="Plataforma do disney plus" />
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico" />
+    <link rel="shortcut icon" type="image/jpg" href="./assets/disney-icon.png" />
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -31,11 +31,20 @@
       <!--inicio div app-->
       <header>
         <img src="/assets/logo.png" alt="Logo of the disney plus" />
-        <button type="button" class="button_menu">
+        
+        <button type="button" class="button_menu" onclick="changeButtonMenu()">
           <span></span>
           <span></span>
           <span></span>
         </button>
+
+        <nav class="navigation active">
+          <h2>Movies</h2>
+
+          <ul id="movies">
+           
+          </ul>
+        </nav>
       </header>
 
       <main> <!--inicio main-->
@@ -52,20 +61,12 @@
           <!--SINOPSE DO FILME-->
           <p> </p>
 
-          <button>
+          <button type="button">
             <img src="/assets/icon-play.png" alt="Icon play">
-            Watch Now
+            Assistir Agora
           </button>
         </section>
 
-        <aside class="movies">
-          <h2>Movies</h2>
-
-            <div>
-              <ul id="movies__list">
-              </ul>
-            </div>
-        </aside>
       </main> <!--/fim main-->
     </div><!--/fim div app-->
 
